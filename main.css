@@ -16,7 +16,7 @@ main {
 .column {
     width: 90%;
     margin: auto;
-    max-height: 90%;
+    height: 90%;
 }
 
 img {
@@ -61,7 +61,7 @@ img {
     line-height: 1.5;
     margin-left: 26px;
     margin-top: 15px;
-    max-width: 70%;
+    width: 70%;
 }
 
 .first-column button {
@@ -131,7 +131,7 @@ button {
     }
 
     button {
-        margin-top: 45px;
+        margin-top: 150px;
         
     }
     button:hover {

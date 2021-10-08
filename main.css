@@ -112,7 +112,7 @@ button {
 
     main {
         display: flex;
-        position: relative;
+        position: static;
         top: 0;
         bottom: 0;
         right: 0;

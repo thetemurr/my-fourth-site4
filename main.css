@@ -91,6 +91,17 @@ button {
 
 /* Desktop styles */
 @media only screen and (min-width: 768px) {
+    html {
+        box-sizing: border-box;
+        font-family: 100%;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+    
     body {
         background-color: hsl(0, 0%, 95%);
         margin: 0;
@@ -101,13 +112,13 @@ button {
 
     main {
         display: flex;
-        position: absolute;
-        margin: auto;
+        position: relative;
         top: 0;
-        left: 0;
-        right: 0;
         bottom: 0;
+        right: 0;
+        left: 0;
         width: 60%;
+        min-height: 100vh;
         
     }
 

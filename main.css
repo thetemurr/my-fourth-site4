@@ -95,12 +95,7 @@ button {
         box-sizing: border-box;
         font-family: 100%;
     }
-
-    *,
-    *::before,
-    *::after {
-        box-sizing: inherit;
-    }
+    
     body {
         background-color: hsl(0, 0%, 95%);
         margin: 0;
